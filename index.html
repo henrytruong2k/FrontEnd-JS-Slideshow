@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AROUND WORLD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo"><a href="#">TRAVEL</a></h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+
+        <div class="search">
+            <input type="text" name="search" id="search" required placeholder="Enter your search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+             
+        </div>
+    </header>
+
+    <section>   
+        <div class="container">
+            <div class="slides">
+                <img src="img/bali-bg1.jpg" alt="">
+                <div class="content">
+                    <h2>Bali</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Voluptatum quaerat tempore excepturi voluptatem quidem, 
+                        quod quam porro magni adipisci voluptates debitis temporibus 
+                        commodi saepe, fuga ducimus aperiam perspiciatis nulla facere.
+                    </p>
+                    <a href="#">Read more &#8594</a>
+                </div>
+            </div>
+
+            <div class="slides">
+                <img src="img/roma-bg2.jpg" alt="">
+                <div class="content">
+                    <h2>Roma</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Voluptatum quaerat tempore excepturi voluptatem quidem, 
+                        quod quam porro magni adipisci voluptates debitis temporibus 
+                        commodi saepe, fuga ducimus aperiam perspiciatis nulla facere.
+                    </p>
+                    <a href="#">Read more &#8594</a>
+                </div>
+            </div>
+
+            <div class="slides">
+                <img src="img/vietnam-bg3.jpg" alt="">
+                <div class="content">
+                    <h2>Vietnam</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Voluptatum quaerat tempore excepturi voluptatem quidem, 
+                        quod quam porro magni adipisci voluptates debitis temporibus 
+                        commodi saepe, fuga ducimus aperiam perspiciatis nulla facere.
+                    </p>
+                    <a href="#">Read more &#8594</a>
+                </div>
+            </div>
+
+            <div class="slides">
+                <img src="img/thailan-bg4.jpg" alt="">
+                <div class="content">
+                    <h2>ThaiLand</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Voluptatum quaerat tempore excepturi voluptatem quidem, 
+                        quod quam porro magni adipisci voluptates debitis temporibus 
+                        commodi saepe, fuga ducimus aperiam perspiciatis nulla facere.
+                    </p>
+                    <a href="#">Read more &#8594</a>
+                </div>
+            </div>
+
+            <div class="slides">
+                <img src="img/paris-bg.jpg" alt="">
+                <div class="content">
+                    <h2>Paris</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Voluptatum quaerat tempore excepturi voluptatem quidem, 
+                        quod quam porro magni adipisci voluptates debitis temporibus 
+                        commodi saepe, fuga ducimus aperiam perspiciatis nulla facere.
+                    </p>
+                    <a href="#">Read more &#8594</a>
+                </div>
+            </div>
+
+            <div class="slides">
+                <img src="img/italy-bg.jpeg" alt="">
+                <div class="content">
+                    <h2>Italy</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Voluptatum quaerat tempore excepturi voluptatem quidem, 
+                        quod quam porro magni adipisci voluptates debitis temporibus 
+                        commodi saepe, fuga ducimus aperiam perspiciatis nulla facere.
+                    </p>
+                    <a href="#">Read more &#8594</a>
+                </div>
+            </div>  
+        </div>
+        <!-- Slides small -->
+        <div class="slides-small">
+            <div class="thumb effects"> 
+                <p>Bali, Beach</p>
+                <img src="img/img1.jpg" alt="">
+                <i class="fa fa-bookmark"></i>
+            </div>
+
+            <div class="thumb">
+                <p>Ancient wall, Roma</p>
+                <img src="img/img2.jpg" alt="">
+                <i class="fa fa-bookmark"></i>
+            </div>
+
+            <div class="thumb">
+                <p>People, VietNam</p>
+                <img src="img/img3.jpg" alt="">
+                <i class="fa fa-bookmark"></i>
+            </div>
+
+            <div class="thumb">
+                <p>Elephants, ThaiLand</p>
+                <img src="img/img4.jpg" alt="">
+                <i class="fa fa-bookmark"></i>
+            </div>
+
+            <div class="thumb">
+                <p>Shop, Paris</p>
+                <img src="img/img5.jpg" alt="">
+                <i class="fa fa-bookmark"></i>
+            </div>
+
+            <div class="thumb">
+                <p>Historical Sites, Italy</p>
+                <img src="img/img6.jpg" alt="">
+                <i class="fa fa-bookmark"></i>
+            </div>
+        </div>
+
+        <!-- Next and Prev buttons -->
+        <a href="#" class="prev">&#171</a>
+        <a href="#" class="next">&#187</a>
+
+        <!-- Dot / circles Nav  -->
+        <div class="nav">
+            <span class="dot active">1</span>
+            <span class="dot">2</span>
+            <span class="dot">3</span>
+            <span class="dot">4</span>
+            <span class="dot">5</span>
+            <span class="dot">6</span>
+        </div>
+    </section>
+
+    <script>
+        const next = document.querySelector('.next');
+        const prev = document.querySelector('.prev');
+        const dots = document.querySelectorAll('.dot');
+        const slides = document.querySelectorAll('.slides');
+
+        let index = 1;
+        function show(n) {
+            if(n>slides.length){
+                index=1;
+            }
+            if(n<1){
+                index = slides.length;
+            }
+
+            let i;
+            for(i=0;i<slides.length;i++){
+                slides[i].style.transform = `translateX(0)`;
+                slides[i].className = slides[i].className.replace("fade", "");
+            }
+            slides[index-1].style.transform = `translateX(-${(index-1)*100}%)`;
+            slides[index-1].className += " fade";
+
+            //dots 
+            for(i=0;i<dots.length;i++){
+                dots[i].className = dots[i].className.replace("active", "");
+            }
+            dots[index-1].className += " active";
+        }
+        next.addEventListener('click', ()=>{
+            show(index+=1);
+            nextSlide();
+        });
+        prev.addEventListener('click', ()=>{
+            show(index-=1);
+            prevSlide();
+        });
+
+        
+        // JS slides-small
+        const thumb = document.querySelectorAll('.thumb');
+        let thumbArray = [];
+        let i;
+        for(i=0;i<thumb.length;i++){
+            thumbArray[i] = thumb[i].innerHTML;
+        }
+        //console.log(thumbArray);
+
+        function nextSlide() {
+            let change = thumbArray.shift();
+            thumbArray.push(change);
+            for(let i=0;i<thumb.length;i++){
+                thumb[i].innerHTML = thumbArray[i];
+            }
+        }
+
+        function prevSlide() {
+            let change = thumbArray.pop();
+            thumbArray.unshift(change);
+            for(i=0;i<thumb.length;i++){
+                thumb[i].innerHTML = thumbArray[i];
+            }
+        }
+
+    </script>
+</body>
+</html>
